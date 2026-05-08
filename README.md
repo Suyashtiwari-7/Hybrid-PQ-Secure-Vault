@@ -71,6 +71,20 @@ Every encrypted file produced by this tool contains a strict binary header that 
 
 ---
 
+## 📊 Performance Benchmarks (Kyber vs RSA)
+
+Beyond its resistance to quantum attacks, the Post-Quantum KEM architecture was benchmarked against traditional RSA encryption. The empirical data proves that the modern Kyber-style KEM is not only safer, but drastically more efficient at generating keys and encapsulating secrets.
+
+### Key Generation & Operations Timeline
+*(Kyber operates in a fraction of the time it takes RSA to generate large secure primes).*
+![Kyber vs RSA Timeline](images/kyber_vs_rsa_performance.png)
+
+### Operation Speedup Multiplier
+*(Showcasing the exact performance multiplier gained by migrating to a KEM-based approach).*
+![Performance Speedup](images/speedup_comparison.png)
+
+---
+
 ## 📂 Repository Structure
 
 ```text
