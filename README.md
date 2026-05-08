@@ -41,7 +41,28 @@ python secure_file_tool.py
 
 ### 3. Usage Workflows
 
-You will be presented with an interactive CLI menu.
+You will be presented with an interactive CLI menu that looks exactly like this:
+
+```text
+==================================================
+🔒 SECURE FILE ENCRYPTION TOOL 🔒
+==================================================
+📁 Standard Encryption (Available):
+1) Register a user
+2) Encrypt a file with password
+3) Decrypt a file with password
+
+🚀 Post-Quantum Encryption (Kyber):
+4) Post-quantum: Generate Kyber keys
+5) Post-quantum: Encrypt file with Kyber
+6) Post-quantum: Decrypt file with Kyber
+
+🔧 Debug:
+7) Show registered users
+0) Exit
+==================================================
+Choose an option: 
+```
 
 **Option A: Standard Password Encryption**
 1. Press `1` to **Register** a new user with a secure password.
